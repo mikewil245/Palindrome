@@ -20,4 +20,5 @@ checkBtn.addEventListener("click", () => {
     showMe.style.display = "block";
     showMe.textContent = `${normalizedText} is a not a palindrome`;
   }
+  inputfield.value = "";
 });
